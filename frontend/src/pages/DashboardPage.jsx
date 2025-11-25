@@ -29,5 +29,3 @@ export default function DashboardPage({ user, onLogout }) {
     </main>
   );
 }
-
-
