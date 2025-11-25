@@ -1,0 +1,7 @@
+com\example\loginbackend\controllers\AuthController.class
+com\example\loginbackend\entities\User.class
+com\example\loginbackend\LoginBackendApplication.class
+com\example\loginbackend\services\AuthService.class
+com\example\loginbackend\controllers\AuthController$LoginResponse.class
+com\example\loginbackend\repositories\UserRepository.class
+com\example\loginbackend\controllers\AuthController$ErrorResponse.class
