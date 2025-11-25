@@ -5,11 +5,13 @@ export default function LoginPage({ onSuccess }) {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+  const API_BASE = import.meta.env.VITE_API_BASE;
+  
   const handleSubmit = async () => {
     setError('');
 
     try {
-      const response = await fetch('http://localhost:9090/api/auth/login', {
+      const response = await fetch(`${API_BASE}/api/auth/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
